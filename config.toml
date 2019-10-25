@@ -1,0 +1,40 @@
+baseurl = "https://blog.fraq.io/"
+languageCode = "en-us"
+title = "fraq"
+theme = "hugo-classic"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = ""
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+[[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+[[menu.main]]
+    name = "Reading List"
+    url = "/reading-list/"
+    weight = 5
+[[menu.feed]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = "Where infrastructure goes to cry"
+    footer = "Built with [Hugo](https://gohugo.io/)  using [Hugo Classic](https://github.com/goodroot/hugo-classic)"
+    custom_css = ["css/theme-override.css"]
