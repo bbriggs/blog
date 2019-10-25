@@ -27,8 +27,8 @@ footnotereturnlinkcontents = "↩"
     url = "/projects/"
     weight = 4
 [[menu.main]]
-    name = "Reading List"
-    url = "/reading-list/"
+    name = "Recommended Reading"
+    url = "/recommended-reading/"
     weight = 5
 [[menu.feed]]
     name = "Subscribe"
