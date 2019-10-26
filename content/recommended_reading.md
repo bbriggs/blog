@@ -16,7 +16,7 @@ What distinguishes a long-form blog post from an essay? For me, structure, tone,
 ### Blogs and such
 - [The Engineer/Management Pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)
 - [Engineering Management: The Pendulum or the Ladder](https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/)
-- [Cosmo, the Hacker 'God' Who Fell to Earth](https://www.wired.com/2012/09/cosmo-the-god-who-fell-to-earth/)
+- [How Apple and Amazon Security Flaws Led to My Epic Hacking](https://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/)
   - An excellent profile of a real-world social engineering attack
 - [Salary Negotiation: Make More Money, Be More Valued](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
   - patio11's excellent article on salary negotiation. A must-read before any interview process.
