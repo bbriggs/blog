@@ -1,4 +1,4 @@
-baseurl = "https://blog.fraq.io/"
+BaseURL = "https://blog.fraq.io/"
 languageCode = "en-us"
 title = "fraq"
 theme = "hugo-classic"
