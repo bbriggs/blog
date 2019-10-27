@@ -1,5 +1,6 @@
 ---
 title: Home
+slug: /
 ---
 
 ### A collection of trivial things
