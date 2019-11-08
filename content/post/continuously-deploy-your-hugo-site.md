@@ -7,6 +7,8 @@ mermaid: true
 
 {{< tweet 1192585307767619584 >}}
 
+Based on our short conversation in the replies to this tweet, I decided to write something about how _I_ have solved a similar problem for this blog.
+
 This post will explain how to build and continuously deploy and serve Hugo using ansible and a VPS. It's a simple and (mostly) lightweight process that's definitley not bulletproof, but holds up well, is unattended, stable, and more than sufficient for your personal blog.
 
 ## Infrastructure setup
