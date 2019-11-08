@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 VOLUME /blog
-RUN apk add --no-cache hugo
+RUN apk add --no-cache hugo ca-certificates
 EXPOSE 1313
 WORKDIR /blog
 COPY . .
