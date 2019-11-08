@@ -1,7 +1,7 @@
 ---
 title: "Continuously Deploy Your Hugo Site"
 date: 2019-11-07T18:57:25-05:00
-draft: true
+draft: false
 mermaid: true
 ---
 
