@@ -35,6 +35,7 @@ footnotereturnlinkcontents = "↩"
     url = "/index.xml"
 
 [params]
+    siteURL = "https://blog.fraq.io"
     description = "Where infrastructure goes to cry"
     footer = "Built with [Hugo](https://gohugo.io/)  using [Hugo Classic](https://github.com/goodroot/hugo-classic)"
     custom_css = ["css/theme-override.css"]
