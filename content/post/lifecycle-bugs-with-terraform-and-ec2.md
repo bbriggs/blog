@@ -58,6 +58,6 @@ resource "aws_instance" "example" {
 
 Unfortunately, we are using a module here and the `lifecycle` block is not available as a meta-parameter as of `0.12.x`. The ideal way to fix this would be to allow `lifecycle` in module blocks to ignore changes, but in the meantime this probably requires a patch to the module itself to allow you specify parameters changes that can be ignored (like they already do with attached EBS volumes).
 
-Other fixes would be to not associate a public IP at all and stritly use bastion servers or to attach an EIP to the instance and connect that way. Each have their advantages and the bastion route is probably generally better than an ephemeral public IP like we were doing as a workaround.
+Other fixes would be to not associate a public IP at all and strictly use bastion servers or to attach an EIP to the instance and connect that way. Each have their advantages and the bastion route is probably generally better than an ephemeral public IP like we were doing as a workaround.
 
 Let this be a warning that when expediency trumps safety, it can bite you in unexpected ways.
