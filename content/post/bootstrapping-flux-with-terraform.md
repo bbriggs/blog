@@ -1,7 +1,7 @@
 ---
 title: "Bootstrapping FluxCD with Terraform"
 date: 2020-07-08T23:50:00-04:00
-draft: true
+draft: false
 
 tags:
  - tech
