@@ -12,6 +12,8 @@ tags:
 
 ---
 
+_Edit: Looks like I lost some image assets when I migrated over and broke the links. Sorry! Let this be a lesson about rebasing._
+
 We already know we can port forward to reach services in Minikube, but what abot the other way around? What if a pod needs an external service on your laptop? There's a [pure Kubernetes way of doing it](https://stackoverflow.com/questions/43530039/on-a-mac-what-ip-will-represent-my-laptop-from-within-a-minikube-cluster/43530279?noredirect=1#comment74114215_43530279), but this is more of an interesting SSH trick that exposes how Kubernetes and Minikube work. Plus, it's always fun to do tricks with SSH.
 
 ### The setup
