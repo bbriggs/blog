@@ -101,7 +101,7 @@ resource "helm_release" "flux_helm_operator" {
 
   set {
     name  = "git.ssh.secretName"
-    value = "flux-git-deploy"
+    value = "helm-ssh"
   }
 
   set {
@@ -171,7 +171,7 @@ ssh-keygen -t rsa -b 4096 -f flux
 Then create your secret in the flux namespace
 
 ```
-kubectl create secret generic flux-git-deploy --from-file=identity=./flux
+kubectl create secret generic helm-ssh --from-file=identity=./flux
 ```
 
 And don't forget to add the public half of this key pair to your private helm repo. At this point, both the flux and flux helm operators should be able to access their respective repos. Save that keypair to your password manager and clean up your artifacts. Congratulations, you should now be ready to use flux!
