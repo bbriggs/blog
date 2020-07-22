@@ -1,7 +1,7 @@
 ---
 title: "Enabling Oauth login to Grafana on Kubernetes"
 date: 2020-07-21T23:17:54-04:00
-draft: true
+draft: false
 
 tags:
   - tech
