@@ -8,6 +8,7 @@ tags:
  - ops
  - kubernetes
  - terraform
+ - flux
 ---
 
 Quickly get your Kubernetes cluster going with Terraform and FluxCD. The one catch here is you _will_ have to provide an SSH to the helm provider. Instructions provided below.
