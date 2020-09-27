@@ -37,5 +37,5 @@ footnotereturnlinkcontents = "↩"
 [params]
     siteURL = "https://blog.fraq.io"
     description = "Where infrastructure goes to cry"
-    footer = "Built with [Hugo](https://gohugo.io/)  using [Hugo Classic](https://github.com/goodroot/hugo-classic)"
+    footer = "This work by [Bren Briggs](https://blog.fraq.io/) is licensed under [CC BY-NC-SA 4.0CC](https://creativecommons.org/licenses/by-nc-sa/4.0/) "
     custom_css = ["css/theme-override.css"]
